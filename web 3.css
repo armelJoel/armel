@@ -1,0 +1,97 @@
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:url();
+}
+
+h1 {
+    color: #333333;
+}
+
+/* Style de la page d'authentification */
+form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #cccccc;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+/* Style de la page des produits */
+table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style de la page d'information */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer,p{
+    text-align: center;
+}
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+img:hover{
+    cursor: :pointer;
+    transform: scale(1.1);
+    transition: 3s;
+}
+.acceuil{
+    cursor: :pointer;
+    transform: scale(1.1);
+    transition: 3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
